@@ -7,7 +7,7 @@ git clone https://github.com/pohleric/sgg00425-stac.git
 
 ## Install
 Follow the instructions given in the file 
-**Anaconda-Installation (personal computer)[optional]**
+**Anaconda-Installation (personal computer)[optional]**. You find this file on **Moodle**.
 > The folder name might be different, e.g. "sgg.00425", "SGG.00425" , etc. This is not a problem. Adjust the folder name if you get an error that the folder name is not correct.
 
 
