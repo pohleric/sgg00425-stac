@@ -6,8 +6,8 @@ You can either download it as a zip file (Code button), or clone it with "git":
 git clone https://github.com/pohleric/sgg00425-stac.git
 
 
-This code repository is lacking a large prepared data file "landsat\_ot\_c2\_l2\_fribourg_example.nc". The file is available via download here:
-https://unifrch-my.sharepoint.com/:u:/g/personal/eric_pohl_unifr_ch/EVg5kq078fNBqb5J5l-OxxYB4l2l5-_EYV1JfqMPVyxQ2w?e=rfbnpm
+## Data
 
-Place the file in the "data" folder after downloading it.
+This code repository is lacking all data. Please download the entire data folder called "data" and place this folder into the main folder "sgg00425-stac". Download the data here:
 
+https://unifrch-my.sharepoint.com/:f:/g/personal/eric_pohl_unifr_ch/Ek-aWar-91tBsNOdhSnu--ABiN52AgShUQJuz4Nn0-OOXA?e=Cdtxp0
