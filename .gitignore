@@ -1,6 +1,8 @@
 __*
 .ipynb_checkpoints
 .idea
+.old
+.DS_Store
 data/landsat_ot_c2_l2_fribourg_example.nc
 landsat_ot_c2_l2_fribourg_example.nc
 data/
