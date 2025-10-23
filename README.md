@@ -2,7 +2,7 @@
 
 This is the code repository for the course SGG.00425 "Environmental data and methods". 
 
-You can either download it as a zip file (Code button), or clone it with "git":
+You can either download it as a zip file (green "Code" button), or clone it with "git":
 git clone https://github.com/pohleric/sgg00425-stac.git
 
 
