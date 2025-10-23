@@ -5,6 +5,11 @@ This is the code repository for the course SGG.00425 "Environmental data and met
 You can either download it as a zip file (green "Code" button), or clone it with "git":
 git clone https://github.com/pohleric/sgg00425-stac.git
 
+## Install
+Follow the instructions given in the file 
+**Anaconda-Installation (personal computer)[optional]**
+> The folder name might be different, e.g. "sgg.00425", "SGG.00425" , etc. This is not a problem. Adjust the folder name if you get an error that the folder name is not correct.
+
 
 ## Data
 
