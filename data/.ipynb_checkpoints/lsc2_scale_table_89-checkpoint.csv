@@ -1,0 +1,20 @@
+Band_Designation,Aliases,Band_Name,Data_Type,Units,Data_Range_min,Data_Range_max,Valid_Range_min,Valid_Range_max,Fill_Value,Multiplicative_Scale_Factor,Additive_Offset
+SR_B1,"band_1,coastal_aerosol",Band 1 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+SR_B2,"band_2,blue",Band 2 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+SR_B3,"band_3,green",Band 3 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+SR_B4,"band_4,red",Band 4 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+SR_B5,"band_5,nir",Band 5 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+SR_B6,"band_6,swir_1",Band 6 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+SR_B7,"band_7,swir_2",Band 7 SR,UINT16,Reflectance,1,65535,7273,43636,0,0.0000275,-0.2
+ST_B10,"band_10,tirs,st,surface_temperature",Band 10 ST,UINT16,Kelvin,1,65535,293,61440,0,0.00341802,149
+QA_PIXEL,"pq,pixel_quality",Level 2 Pixel Quality Band,UINT16,Bit Index,1,65535,21824,65534,1,NA,NA
+SR_QA_AEROSOL,"qa_aerosol,aerosol_qa",Aerosol QA,UINT8,Bit Index,0,255,1,255,1,NA,NA
+QA_RADSAT,"radsat,radiometric_saturation",Radiometric Saturation QA,UINT16,Bit Index,0,65535,0,3829,NA,NA,NA
+ST_QA,"st_qa,surface_temperature_quality,surface_temperature_uncertainty",Surface Temperature Uncertainty,INT16,Kelvin,0,32767,0,32767,-9999,0.01,NA
+ST_TRAD,"trad,thermal_radiance",Thermal Radiance,INT16,W/(m2.sr.μm)/ DN,0,22000,0,22000,-9999,0.001,NA
+ST_URAD,"urad,upwell_radiance",Upwelled Radiance,INT16,W/(m2 .sr.μm)/ DN,0,28000,0,28000,-9999,0.001,NA
+ST_DRAD,"drad,downwell_radiance",Downwelled Radiance,INT16,W/(m2.sr.μm)/ DN,0,28000,0,28000,-9999,0.001,NA
+ST_ATRAN,"atran,atmospheric_transmittance",Atmospheric Transmittance,INT16,Unitless,0,10000,0,10000,-9999,0.0001,NA
+ST_EMIS,"emis,emissivity",Emissivity estimated from ASTER GED,INT16,Unitless,0,10000,0,10000,-9999,0.0001,NA
+ST_EMSD,"emsd,emissivity_stddev",Emissivity standard deviation,INT16,Unitless,0,32767,0,10000,-9999,0.0001,NA
+ST_CDIST,cdist,Pixel distance to cloud,INT16,Kilometers,0,24000,0,24000,-9999,0.01,NA

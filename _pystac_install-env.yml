@@ -1,0 +1,19 @@
+name: pystac_example
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - dask
+  - pystac-client
+  - odc-stac
+  - matplotlib
+  - rioxarray
+  - ipywidgets
+  - odc-algo
+  - folium
+  - seaborn
+  - geopandas
+  - ipympl
+  - jupyter_contrib_nbextensions
+  - gdal

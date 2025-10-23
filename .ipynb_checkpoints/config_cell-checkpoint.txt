@@ -1,0 +1,62 @@
+# Configuration
+
+product = 'landsat_ot_c2_l2'
+measurements = ['QA_PIXEL', 'SR_B2', 'SR_B3']
+# to make your live easier you can manually replace the measurements variable by 
+# one of their alias:
+
+longitude = (7.1514, 7.1769)
+latitude = (46.7965, 46.8079)
+crs = 'epsg:4326'
+
+time = ('2020-05-01', '2020-06-01')
+# the following date formats are also valid:
+# time = ('2000-01-01', '2001-12-31')
+# time=('2000-01', '2001-12')
+# time=('2000', '2001')
+
+# You can use an UTM zone according to the DataCube System (look up UTM zones).
+# We prefer not to use this, instead specifying SwissGrid (epsg:2056).
+output_crs = 'epsg:2056'
+resolution = -30.0, 30.0
+
+# These are the pixel classifications for Sentinel (SCL) and Landsat (QA_PIXEL); 
+# you can use values to mask out values that belong to certain classes
+
+###################################
+# SCL categories:                 #
+#   0 - no data                   #
+#   1 - saturated or defective    #
+#   2 - dark area pixels          #
+#   3 - cloud_shadows             #
+#   4 * vegetation                #
+#   5 * not vegetated             #
+#   6 * water                     #
+#   7 * unclassified              #
+#   8 - cloud medium probability  #
+#   9 - cloud high probability    #
+#  10 - thin cirrus               #
+#  11 * snow                      #
+###################################
+
+# Check for more detailed information: 
+# - Landsat 8/9 (OLI/TIRS), Page 19:
+# https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/LSDS-1619_Landsat8-9-Collection2-Level2-Science-Product-Guide-v6.pdf
+# - Landsat 7 (ETM+), Page 17:
+# https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/LSDS-1337_Landsat7ETM-C2-L2-DFCB-v6.pdf
+# - Landsat 4,5 (TM), Page 18:
+# https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/LSDS-1415_Landsat4-5-TM-C2-L1-DFCB-v3.pdf
+
+#############################################
+# QA_PIXEL BITS : CATEGORIES                #
+#    0 : Fill                               #
+#    1 : Clear                              #
+#    2 : Water                              #
+#    3 : Cloud shadow                       #
+#    4 : Snow                               #
+#    5 : Cloud                              #
+#   10 : Terrain occlusion (Landsat 8 only) #
+#############################################
+
+chunks = {"x": 2048, "y": 2048, "time": 1}  # 2048 values are OK with ~21Gb memory available
+
